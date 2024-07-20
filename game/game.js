@@ -1,17 +1,22 @@
-class Game {
+import Character from '../domian/domian.js'
+
+export class Game {
     start(){
         console.log('game started');
     }
 }
 
-class GameSavingData {
+const  defaultGame = new Game();
+export default defaultGame;
+
+export class GameSavingData {
 
 }
 
-function readGameSaving() {
+export function readGameSaving() {
 
 }
 
-function writeGameSaving() {
+export function writeGameSaving() {
     
 }

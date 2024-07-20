@@ -38,6 +38,13 @@ module.exports = {
       }
     ],
   },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),  
+    },
+    open: true, 
+  },
+      // mode: 'development',
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/index.html',
