@@ -1,4 +1,4 @@
-import Character from '../domian/domian.js'
+import Character from './domian/domian.js'
 
 export class Game {
     start(){
